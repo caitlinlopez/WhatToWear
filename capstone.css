@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Nixie+One');
+
+body {
+  background: #E8B9C4;
+}
+
+#programcontainer {
+  width: 100%;
+}
+
+#inner {
+
+}
+
+#start {
+  left: 42.5%;
+  top: 35%;
+  position: absolute;
+}
+
+#locationcontainer {
+  width: 400px;
+  font-family: 'Nixie One', cursive;
+  font-size: 24px;
+  padding: 20px;
+  position: absolute;
+  right:  32%;
+  top: 5%;
+  border: 4px solid transparent;
+  text-align: center;
+}
+
+#weatherinfocontainer {
+  width: 300px;
+  font-family: 'Nixie One', cursive;
+  font-size: 23px;
+  padding: 20px;
+  position: absolute;
+  right:  69%;
+  top: 5%;
+  border: 4px solid transparent;
+  text-align: center;
+}
+
+#forecastcontainer {
+  width: 300px;
+  font-family: 'Nixie One', cursive;
+  font-size: 23px;
+  padding: 20px;
+  position: absolute;
+  right:  69%;
+  top: 5%;
+  border: 4px solid transparent;
+  text-align: center;
+}
+
+#imagecontainer {
+  padding: 20px;
+  right: 8%;
+  position: absolute;
+  border: 4px solid transparent;
+}
+
+#refresh  {
+  position: absolute;
+  border: none;
+}
+
+img {
+
+}
+
+#zipcode {
+  border: 3 none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px 10px;
+  width: 150px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 10px;
+  height: 70px;
+  width: 180px;
+  font-family: 'Nixie One', cursive;
+  font-size: 24px;
+  background: #184a9b;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-shadow: 1px 1px #666;
+}
