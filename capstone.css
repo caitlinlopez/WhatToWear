@@ -2,58 +2,166 @@
 @import url('https://fonts.googleapis.com/css?family=Nixie+One');
 
 body {
-  background: #E8B9C4;
+  background: url(images/b.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #programcontainer {
   width: 100%;
 }
 
-#inner {
-
-}
-
 #start {
-  left: 42.5%;
-  top: 35%;
+  left: 40%;
+  top: 30%;
   position: absolute;
+  text-align: center;
 }
 
 #locationcontainer {
   width: 400px;
   font-family: 'Nixie One', cursive;
   font-size: 24px;
-  padding: 20px;
+  padding: 15px;
   position: absolute;
-  right:  32%;
+  right:  33.5%;
   top: 5%;
   border: 4px solid transparent;
   text-align: center;
 }
 
+#outfitcontainer {
+  border: 4px solid transparent;
+  width: 700px;
+  height: 250px;
+  right: 25%;
+  top: 60%;
+  position: absolute;
+  opacity: 0;
+}
+
 #weatherinfocontainer {
-  width: 300px;
+  width: 175px;
   font-family: 'Nixie One', cursive;
   font-size: 23px;
   padding: 20px;
   position: absolute;
-  right:  69%;
-  top: 5%;
+  right:  79%;
+  top: 20%;
   border: 4px solid transparent;
   text-align: center;
 }
 
 #forecastcontainer {
-  width: 300px;
+  width: 175px;
   font-family: 'Nixie One', cursive;
   font-size: 23px;
   padding: 20px;
   position: absolute;
-  right:  69%;
-  top: 5%;
+  right:  61%;
+  top: 20%;
   border: 4px solid transparent;
   text-align: center;
 }
+
+#forecastcontainer2 {
+  width: 175px;
+  font-family: 'Nixie One', cursive;
+  font-size: 23px;
+  padding: 20px;
+  position: absolute;
+  right:  43%;
+  top: 20%;
+  border: 4px solid transparent;
+  text-align: center;
+}
+
+#forecastcontainer3 {
+  width: 175px;
+  font-family: 'Nixie One', cursive;
+  font-size: 23px;
+  padding: 20px;
+  position: absolute;
+  right:  25%;
+  top: 20%;
+  border: 4px solid transparent;
+  text-align: center;
+}
+
+#forecastcontainer4 {
+  width: 175px;
+  font-family: 'Nixie One', cursive;
+  font-size: 23px;
+  padding: 20px;
+  position: absolute;
+  right:  7%;
+  top: 20%;
+  border: 4px solid transparent;
+  text-align: center;
+}
+
+#forecastcontainer5 {
+  width: 175px;
+  font-family: 'Nixie One', cursive;
+  font-size: 23px;
+  padding: 20px;
+  position: absolute;
+  right:  79%;
+  top: 20%;
+  border: 4px solid transparent;
+  text-align: center;
+}
+
+#forecastcontainer6 {
+  width: 175px;
+  font-family: 'Nixie One', cursive;
+  font-size: 23px;
+  padding: 20px;
+  position: absolute;
+  right:  61%;
+  top: 20%;
+  border: 4px solid transparent;
+  text-align: center;
+}
+
+#forecastcontainer7 {
+  width: 175px;
+  font-family: 'Nixie One', cursive;
+  font-size: 23px;
+  padding: 20px;
+  position: absolute;
+  right:  43%;
+  top: 20%;
+  border: 4px solid transparent;
+  text-align: center;
+}
+
+#forecastcontainer8 {
+  width: 175px;
+  font-family: 'Nixie One', cursive;
+  font-size: 23px;
+  padding: 20px;
+  position: absolute;
+  right:  25%;
+  top: 20%;
+  border: 4px solid transparent;
+  text-align: center;
+}
+
+#forecastcontainer9 {
+  width: 175px;
+  font-family: 'Nixie One', cursive;
+  font-size: 23px;
+  padding: 20px;
+  position: absolute;
+  right:  7%;
+  top: 20%;
+  border: 4px solid transparent;
+  text-align: center;
+}
+
 
 #imagecontainer {
   padding: 20px;
@@ -63,12 +171,9 @@ body {
 }
 
 #refresh  {
-  position: absolute;
-  border: none;
-}
-
-img {
-
+  font-size: 48px;
+  opacity: 0;
+  position: relative;
 }
 
 #zipcode {
@@ -88,11 +193,79 @@ button {
   width: 180px;
   font-family: 'Nixie One', cursive;
   font-size: 24px;
-  background: #184a9b;
+  background: #b19cd9;
   border: none;
   color: #fff;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   text-shadow: 1px 1px #666;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+.material-icons.md-48 {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+
+#right {
+  float: right;
+  margin-top: 200px;
+  font-size: 48px;
+  opacity: 0;
+  margin-right: 10px;
+}
+
+#left {
+  float: left;
+  margin-top: 200px;
+  font-size: 48px;
+  opacity: 0;
+  margin-left: 10px;
+}
+
+#title {
+  font-family: 'Nixie One', cursive;
+  font-size: 35px;
+}
+
+#d {
+  font-family: 'Nixie One', cursive;
+  font-size: 20px;
+}
+
+#top {
+  margin: 16px;
+  margin-top: 10px;
+}
+
+#bottom {
+  margin: 16px;
+  margin-top: 10px;
+}
+
+#shoes {
+  margin: 16px;
+  margin-top: 10px;
 }

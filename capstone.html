@@ -3,6 +3,8 @@
 <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
     <link rel="stylesheet" href="capstone.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <title>
         Capstone
     </title>
@@ -12,20 +14,46 @@
   <div id="programcontainer">
     <div id="inner">
     <div id="start">
+      <div id="title">
+        WhatToWear
+      </div><br><br>
+      <div id="d">
+        enter a zipcode or city name
+      </div><br>
       <input type="text" name="zipcode" id="zipcode"> <br>
-      <button onclick="submit()">.</button>
+      <button onclick="submit()"><i class="material-icons">search</i></button>
     </div>
-      <div id="refresh" onclick="refresh()">
-      </div>
+    <div id="refresh" onclick="refresh()">
+    </div>
+    <div id="right" onclick="right()"><i class="material-icons md-48">chevron_right</i>
+    </div>
+    <div id="left" onclick="left()"><i class="material-icons md-48">chevron_left</i>
+    </div>
       <div id="locationcontainer">
       </div>
-      <div id="weatherinfocontainer">
+      <div id="weatherinfocontainer" onclick="outfit()">
       </div>
-      <div id="forecastcontainer">
+      <div id="forecastcontainer" onclick="outfit1()">
+      </div>
+      <div id="forecastcontainer2" onclick="outfit2()">
+      </div>
+      <div id="forecastcontainer3" onclick="outfit3()">
+      </div>
+      <div id="forecastcontainer4" onclick="outfit4()">
+      </div>
+      <div id="forecastcontainer5" onclick="outfit5()">
+      </div>
+      <div id="forecastcontainer6" onclick="outfit6()">
+      </div>
+      <div id="forecastcontainer7" onclick="outfit7()">
+      </div>
+      <div id="forecastcontainer8" onclick="outfit8()">
+      </div>
+      <div id="forecastcontainer9" onclick="outfit9()">
+      </div>
+      <div id="outfitcontainer">
       </div>
       <div id="imagecontainer">
-      </div>
-      <div id="forecast">
       </div>
     </div>
   </div>
